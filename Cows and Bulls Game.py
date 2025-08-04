@@ -20,7 +20,7 @@
     "  cows = sum([1 for i in range(4) if guess[i] in secret]) - bulls\n",
     "\n",
     "  return cows, bulls\n",
-    "\n",
+    "# comment\n",
     "\n",
     "def main():\n",
     "  secret = generate_secret()\n",
@@ -40,7 +40,9 @@
     "      \n",
     "\n",
     "if __name__ == '__main__':\n",
-    "  main()"
+    "  main()\n",
+    "\n",
+    "  # comment"
    ]
   },
   {
